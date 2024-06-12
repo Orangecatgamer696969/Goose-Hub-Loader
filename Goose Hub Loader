@@ -24,7 +24,7 @@ local Premium = GUI:Tab{
 Tab:Button{
 	Name = "🚀  Load Goose Blade Ball Hub  🛰",
 	Description = "Goose Hub",
-	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Orangecatgamer696969/Goose-hub-blade-ball/main/Goose%20Hub%20Blade%20ball", true))() end
+	Callback = function() loadstring(game:Httpget('https://raw.githubusercontent.com/Orangecatgamer696969/Goose-hub-blade-ball/main/Goose%20Hub%20Blade%20ball'), true))() end
      
 }
 
